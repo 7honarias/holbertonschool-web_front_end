@@ -189,6 +189,10 @@ ul.row {
     color: var(--section-title-color);
 }
 
+.footer {
+    padding: var(--footer-padding);
+}
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 html {
     line-height:1.15;
