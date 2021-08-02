@@ -1,0 +1,10 @@
+/* sass hover color */
+$red-color: #FF0000;
+$yellow-color: #00FF00;
+
+button {
+    color: $red-color;
+    &:hover {
+        color: $yellow-color;
+    }
+}
