@@ -771,10 +771,10 @@ ul.row {
   display: inline;
 }
 
-.tag-list li::before {
+.tag-list li::after {
   content: ", ";
 }
 
-.tag-list li::after {
+.tag-list li:last-child::after {
   content: "";
 }
